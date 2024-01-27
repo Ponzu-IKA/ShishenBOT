@@ -1,5 +1,5 @@
 {
-  "name": "satsukibot",
+  "name": "shishenBOT",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,9 +8,10 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "discord.js": "^14.7.1"
+    "discord.js": "^14.14.1",
+    "python-shell": "^5.0.0"
   },
   "devDependencies": {
     "eslint": "^8.56.0"
