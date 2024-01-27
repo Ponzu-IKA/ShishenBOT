@@ -1,13 +1,12 @@
 const { Client, Events, GatewayIntentBits, CommandInteraction, SlashCommandBuilder } = require('discord.js');
 const { PythonShell } = require('python-shell');
-
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMembers, GatewayIntentBits.MessageContent, GatewayIntentBits.GuildMessages] });
 const fs = require('fs');
 
 let msgData = fs.readFileSync("data.txt",'utf-8');
 console.log(msgData);
 let msgLength = msgData.split("\n").length;
-
+console.log(msgLength);
 
 
 client.once(Events.ClientReady, c => {
